@@ -1,0 +1,22 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/lib",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "target": "es2018",
+    "skipDefaultLibCheck": true,
+    "lib": [
+      "dom",
+      "es2018"
+    ],
+    "types": [
+      "googlemaps"
+    ]
+  },
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}

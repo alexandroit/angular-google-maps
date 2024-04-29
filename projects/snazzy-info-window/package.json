@@ -1,0 +1,41 @@
+{
+  "name": "@agm-custom/snazzy-info-window",
+  "version": "3.0.0-beta.2",
+  "description": "Angular components for Google Maps - Sebastian Holstein ",
+  "author": "Alex Marques <aleinfoit@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandroit/angular-google-maps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandroit/angular-google-maps/issues"
+  },
+  "homepage": "https://angular-maps.com",
+  "keywords": [
+    "angular",
+    "ng",
+    "google-maps",
+    "maps",
+    "google",
+    "gmaps",
+    "angular 17",
+    "agm angular 17",
+    "snazzy-info-window"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "snazzy-info-window": "^1.1.0",
+    "@agm-custom/core": "3.0.0-beta.2"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+
+  "devDependencies": {
+    "@agm-custom/core": "3.0.0-beta.2",
+    "@types/googlemaps": "^3.39.8"
+  },
+  "sideEffects": false
+}
